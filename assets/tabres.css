@@ -1,0 +1,129 @@
+@media screen and (max-width: 900px) {
+    .inner-header ul li a {
+        font-size: 12px;
+
+
+    }
+
+    button .btn.toggleBtn {
+        top: 105px;
+    }
+
+    .nobodys {
+        padding: 25px 0 25px 0px;
+    }
+    
+
+    .nobodys-heading {
+        font-size: 22px;
+       
+    }
+
+    .title-content {
+        display: block;
+    }
+    .title-content .left-section {
+        text-align: center;
+        padding: 20px 0;
+    }
+    .title-content .left-section h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .title-content .left-section p {
+        width: 100%;
+        text-align: center;
+    }
+    .title .right-section {
+       
+     
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+    
+    .monitor-content {
+        display: block;
+    }
+
+    .moniter .leftcontent {
+        margin: auto;
+     
+    }
+
+    .moniter .rightcontent {
+        width: 100%;
+    }
+    .moniter .rightcontent {
+        width: 100%;
+        padding: 20px 0 0 0;}
+    .moniter .rightcontent .inner-content {
+
+        padding: 0 30px;
+    }
+
+    .inner-content .Lorem {
+        width: 100%;
+    }
+
+    .contactus-content {
+        display: block;
+        padding: 10px 0;
+
+    }
+
+    .contactus-content .left-content {
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .contactus-content .left-content h1 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .contactus-content .left-content p {
+        font-size: 12px;
+        line-height: 15px;
+        color: #333333;
+        padding: 15px 0 0 0;
+    }
+
+    .contactus-btn {
+        font-size: 12px;
+        line-height: 0;
+        padding: 15px;
+        margin: 0 auto;
+    }
+    .contact-us-footer button{
+        float: none;
+    }
+
+    .top-footer-content {
+        display: block;
+        text-align: center;
+    }
+
+    .abousUs-img {
+
+        margin: 25px auto;
+    }
+
+    .about-us p {
+        width: 100%;
+    }
+
+    .blog p {
+        width: 50%;
+        margin: 0 auto;
+        padding: 6px 0;}
+    
+
+    .top-footer button {
+        float: none;
+    }
+    .quick-links ul li {
+        
+        text-align: start;
+    }
+}

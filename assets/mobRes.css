@@ -1,0 +1,131 @@
+@media screen and (max-width: 768px) {
+
+    .top-Header .header-content {
+        display: block;
+        justify-content: center;
+
+    }
+
+    .left-content ul {
+        justify-content: center;
+    }
+
+    .header-content .right-content {
+
+        justify-content: center;
+        padding: 10px 0;
+    }
+
+    /* navigation */
+    .inner-header {
+        padding: 17px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .inner-header .menu-btn i {
+        display: block;
+
+    }
+
+    #click:checked~.menu-btn i:before {
+        content: "\f00d";
+    }
+
+    .inner-header ul {
+        position: fixed;
+        top: 113px;
+        left: -100%;
+        background: #000000d1;
+        width: 100%;
+        text-align: center;
+        display: block;
+        transition: all 0.3s ease;
+    }
+
+    #click:checked~ul {
+        left: 0;
+    } .inner-header  {
+      border: none;
+       
+    }
+
+    .inner-header ul li {
+        width: 100%;
+       
+    }
+
+
+    .inner-header ul li a {
+        display: block;
+        transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        font-weight: bold;
+        color: #fff;
+    }
+
+    /* .inner-header nav ul li a:hover{
+   padding: 10px 0;
+
+    } */
+
+    #click:checked~ul li a {
+        margin-left: 0px;
+    }
+
+    .content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        z-index: -1;
+        width: 100%;
+        padding: 0 30px;
+        color: #1b1b1b;
+    }
+
+    .content div {
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .bootom-footer-content {
+        display: block;
+        text-align: center;
+    }
+    .inner-content {
+       width: 100%;
+    }
+    button .btn.toggleBtn {
+        top: 105px;
+    }
+    .nobodys {
+        text-align: center;
+    }
+    .psd{
+        display: block;
+    }
+    .psd-top-container{
+        padding-bottom: 10px;
+    }
+    .img {
+        width: 100%;
+    }
+        .title-content .left-section{
+            width: 100%;
+        }
+        .title .right-section {
+            width: 90%;
+        }
+        .contactus-content .right-content {
+            text-align: center;
+        }
+        .top-footer .inner-container {
+            width: 100%;}
+            .right-align {
+                display: block;
+                width: 100%;
+                padding: 20px 0;
+            }
+}
